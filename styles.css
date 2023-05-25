@@ -1,0 +1,84 @@
+/* Estiliza o cabeçalho e o título principal */
+header h1 {
+  color: #ffffff; /* Define a cor do texto como branco */
+  font-size: 60px; /* Define o tamanho da fonte como 60 pixels */
+  text-align: center; /* Centraliza o texto */
+  margin: 40px 0; /* Adiciona uma margem de 40 pixels acima e abaixo */
+}
+
+body {
+  font-family: 'Oswald', sans-serif; /* Define a fonte 'Oswald' como principal */
+  font-family: 'Roboto Condensed', sans-serif; /* Define a fonte 'Roboto Condensed' como fallback */
+  margin: 0; /* Remove a margem padrão do corpo */
+  padding: 0; /* Remove o preenchimento padrão do corpo */
+}
+
+header {
+  background-color: #000000; /* Define a cor de fundo como preto */
+  padding: 20px 0; /* Adiciona um preenchimento de 20 pixels acima e abaixo */
+}
+
+nav ul {
+  list-style-type: none; /* Remove a estilização padrão da lista */
+  margin: 0; /* Remove a margem padrão da lista */
+  padding: 0; /* Remove o preenchimento padrão da lista */
+  display: flex; /* Define a exibição como flex */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+nav ul li {
+  margin: 0 20px; /* Adiciona uma margem de 0 à esquerda e à direita de 20 pixels nos itens da lista */
+}
+
+nav ul li a {
+  color: #fff; /* Define a cor do texto como branco */
+  text-decoration: none; /* Remove a decoração de texto (sublinhado) */
+  font-size: 18px; /* Define o tamanho da fonte como 18 pixels */
+}
+
+nav ul li a:hover {
+  color: #918e8e; /* Define a cor do texto como um tom de cinza mais escuro ao passar o mouse sobre o link */
+}
+
+main {
+  display: flex; /* Define a exibição como flex */
+  flex-direction: column; /* Define a direção dos elementos como coluna */
+  align-items: center; /* Centraliza os elementos verticalmente */
+  padding: 20px; /* Adiciona um preenchimento de 20 pixels */
+}
+
+section {
+  width: 100%; /* Define a largura como 100% */
+  padding: 40px; /* Adiciona um preenchimento de 40 pixels */
+  background-color: #f9f9f9; /* Define a cor de fundo como um tom de cinza claro */
+  text-align: center; /* Centraliza o texto */
+  margin-bottom: 40px; /* Adiciona uma margem inferior de 40 pixels */
+}
+
+.content {
+  max-width: 800px; /* Define a largura máxima como 800 pixels */
+  margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+}
+
+h1 {
+  color: #000000; /* Define a cor do texto como preto */
+  font-size: 30px; /* Define o tamanho da fonte como 30 pixels */
+  margin-bottom: 20px; /* Adiciona uma margem inferior de 20 pixels */
+}
+
+p {
+  color: #555555; /* Define a cor do texto como um tom de cinza mais escuro */
+  font-size: 20px; /* Define o tamanho da fonte como 20 pixels */
+  line-height: 1.5; /* Define a altura da linha como 1.5 vezes o tamanho da fonte */
+}
+
+footer {
+  background-color: #000000; /* Define a cor de fundo como preto */
+  padding: 20px 0; /* Adiciona um preenchimento de 20 pixels acima e abaixo */
+  text-align: center; /* Centraliza o texto */
+}
+
+footer p {
+  color: #fff; /* Define a cor do texto como branco */
+  font-size: 14px; /* Define o tamanho da fonte como 14 pixels */
+}
